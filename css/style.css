@@ -1,0 +1,230 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(../img/pexels-moose-photos-170195-1036622.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 65% 85%;
+  margin-left: 16px;
+}
+
+.page {
+  max-width: 1600px;
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  align-items: center;
+}
+nav h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #424241;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+nav a:hover {
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.title {
+  max-width: 60%;
+  padding-top: 50px;
+}
+.title h1 {
+  font-family: "Bebas Neue";
+  font-weight: 400px;
+  font-size: 140px;
+  line-height: 120px;
+  text-transform: uppercase;
+  color: #424241;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.title .content {
+  margin-bottom: 50px;
+}
+.title .important {
+  color: #7EDAD2;
+  font-family: "Bebas Neue";
+  font-weight: 400px;
+}
+.title p {
+  font-family: "Poppins";
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 40px;
+  color: #909090;
+  width: 719px;
+  height: 80px;
+  margin-bottom: 90px;
+}
+.title a {
+  text-decoration: none;
+  width: 180px;
+  height: 60x;
+  padding: 18px;
+  background-color: #7EDAD2;
+  font-size: 18px;
+  color: #FAFAFA;
+  font-family: "Poppins";
+  font-weight: 400px;
+}
+.title a:hover {
+  background-color: #569993;
+  transition-duration: 0.3s;
+}
+.title .numbers {
+  display: flex;
+  justify-content: space-between;
+  max-width: 491px;
+  margin-bottom: -20px;
+}
+.title .numbers p {
+  width: 152px;
+  height: 85px;
+  font-size: 17px;
+  font-weight: 400px;
+  font-family: "Poppins";
+  color: #909090;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.title .numbers p .importantnumbers {
+  font-family: "Bebas Neue";
+  font-weight: 400px;
+  font-size: 48px;
+  color: #424241;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.articles .business {
+  background-color: white;
+  padding: 32px;
+}
+.articles .business img {
+  width: 55px;
+  margin-bottom: 10px;
+}
+.articles .business h2 {
+  font-family: "Poppins";
+  font-weight: 500px;
+  font-size: 20px;
+  color: #424241;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.articles .business p {
+  font-size: 16px;
+  font-weight: 400px;
+  font-family: "Poppins";
+  color: #909090;
+}
+.articles .financial {
+  background-color: white;
+  padding: 32px;
+}
+.articles .financial img {
+  width: 55px;
+  margin-bottom: 10px;
+}
+.articles .financial h2 {
+  font-family: "Poppins";
+  font-weight: 500px;
+  font-size: 20px;
+  color: #424241;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.articles .financial p {
+  font-size: 16px;
+  font-weight: 400px;
+  font-family: "Poppins";
+  color: #909090;
+}
+.articles .digital {
+  background-color: white;
+  padding: 32px;
+}
+.articles .digital img {
+  width: 55px;
+  margin-bottom: 10px;
+}
+.articles .digital h2 {
+  font-family: "Poppins";
+  font-weight: 500px;
+  font-size: 20px;
+  color: #424241;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.articles .digital p {
+  font-size: 16px;
+  font-weight: 400px;
+  font-family: "Poppins";
+  color: #909090;
+}
+.articles .market {
+  background-color: white;
+  padding: 32px;
+}
+.articles .market img {
+  width: 55px;
+  margin-bottom: 10px;
+}
+.articles .market h2 {
+  font-family: "Poppins";
+  font-weight: 500px;
+  font-size: 20px;
+  color: #424241;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.articles .market p {
+  font-size: 16px;
+  font-weight: 400px;
+  font-family: "Poppins";
+  color: #909090;
+}
+
+/*# sourceMappingURL=style.css.map */
